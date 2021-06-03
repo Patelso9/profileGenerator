@@ -33,7 +33,19 @@ function appMenu() {
         // reccomended to add validate property for email
         type: 'input',
         name: 'managerEmail',
-        message: 'What is your Email?'
+        message: 'What is your Email?',
+        default: () => {},
+        validate: function (email) {
+  
+              valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+  
+              if (valid) {
+                console.log("Great job");
+                  return true;
+              } else {
+                  console.log(".  Please enter a valid email")
+                  return false;
+              } }
       },
       {
         type: 'input',
@@ -92,7 +104,19 @@ function appMenu() {
       {
         type: 'input',
         name: 'engineerEmail',
-        message: 'What is the intern email?'
+        message: 'What is the engineer email?',
+        default: () => {},
+        validate: function (email) {
+  
+              valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+  
+              if (valid) {
+                console.log("Great job");
+                  return true;
+              } else {
+                  console.log(".  Please enter a valid email")
+                  return false;
+              } }
       },
       {
         type: 'input',
@@ -132,7 +156,19 @@ function appMenu() {
       {
         type: 'input',
         name: 'internEmail',
-        message: 'What is the intern email?'
+        message: 'What is the intern email?',
+        default: () => {},
+        validate: function (email) {
+  
+              valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+  
+              if (valid) {
+                console.log("Great job");
+                  return true;
+              } else {
+                  console.log(".  Please enter a valid email")
+                  return false;
+              } }
       },
       {
         type: 'input',
