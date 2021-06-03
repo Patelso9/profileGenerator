@@ -31,9 +31,6 @@
   ## Demo
 https://youtu.be/onMpovDVJL8
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/onMpovDVJL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
   ## Questions
   Contact information is below if you have any questions or concerns
 
