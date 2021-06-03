@@ -97,7 +97,7 @@ function appMenu() {
       {
         type: 'input',
         name: 'engineerGithub',
-        message: 'What is the engineer GitHUb username?'
+        message: 'What is the engineer GitHub username?'
       },
     ]).then(answers => {
       
@@ -105,11 +105,11 @@ function appMenu() {
       teamMembers.push(engineer);
       idArray.push(answers.engineerId);
     
-      // YOUR CODE HERE
-      // 1. CREATE A VARIABLE TO STORE THE ENGINEER OBJECT INSTANTIATED WITH THE ENGINEER CLASS, PASSING ANSWERS PROPERTIES AS INPUT AURGUMENTS 
-      //    TO THE ENGINEER CLASS CONSTRUCTOR
-      // 2. ADD (PUSH) THE ENGINEER VARIABLE TO the teamMembers ARRAY
-      // 3. ADD (PUSH) THE ENGINERR ID TO THE idArray ARRAY
+          // YOUR CODE HERE
+          // 1. CREATE A VARIABLE TO STORE THE ENGINEER OBJECT INSTANTIATED WITH THE ENGINEER CLASS, PASSING ANSWERS PROPERTIES AS INPUT AURGUMENTS 
+          //    TO THE ENGINEER CLASS CONSTRUCTOR
+          // 2. ADD (PUSH) THE ENGINEER VARIABLE TO the teamMembers ARRAY
+          // 3. ADD (PUSH) THE ENGINERR ID TO THE idArray ARRAY
       
       
       createTeam();
@@ -140,15 +140,15 @@ function appMenu() {
         message: 'What school does the intern attend?'
       },
     ]).then(answers => {
-      const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.internGithub);
+      const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.intern);
       teamMembers.push(intern);
       idArray.push(answers.internId);
       
-      // YOUR CODE HERE
-      // 1. CREATE A VARIABLE TO STORE THE INTERN OBJECT INSTANTIATED WITH THE INTERN CLASS, PASSING ANSWERS PROPERTIES AS INPUT AURGUMENTS 
-      //    TO THE INTERN CLASS CONSTRUCTOR
-      // 2. ADD (PUSH) THE INTERN VARIABLE TO the teamMembers ARRAY
-      // 3. ADD (PUSH) THE INTERN ID TO THE idArray ARRAY
+              // YOUR CODE HERE
+              // 1. CREATE A VARIABLE TO STORE THE INTERN OBJECT INSTANTIATED WITH THE INTERN CLASS, PASSING ANSWERS PROPERTIES AS INPUT AURGUMENTS 
+              //    TO THE INTERN CLASS CONSTRUCTOR
+              // 2. ADD (PUSH) THE INTERN VARIABLE TO the teamMembers ARRAY
+              // 3. ADD (PUSH) THE INTERN ID TO THE idArray ARRAY
      
       createTeam();
     });
